@@ -13,8 +13,8 @@
 
 # Variable setup
 set _HDL_DIRECTORY ./SRC
-set HDL_FILES [list lfsr4.sv]           ;* list of sources
-set DESIGN lfsr4                        ;* top-level module name
+set HDL_FILES [list lfsr4.sv]           ;# list of sources
+set DESIGN lfsr4                        ;# top-level module name
 
 # Clock name should match the clock signal name in HDL (i.e. clk, CLK, ...)
 set CLOCK_NAME clk
